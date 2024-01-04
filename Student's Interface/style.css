@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ysabeau+Office:wght@1;100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+/* Color Variable */
+:root {
+  --main-color:
+  --hover-color: 
+  --body-color:
+  --container-color: ;
+  --text-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0 16px;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+/* Navbar */
+/* Header */
+.header {
+    height: 2px;
+    flex-shrink: 0;
+    border-bottom: 0.8px solid #D8DCF0;
+    background: #FFF;
+    display: flex;
+    max-height: 63px;
+    height: 100%;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+}
+
+.page-logo {
+    width: 90px;
+    height: 72px;
+}
+
+/* Right content */
+.right-navbar-section {
+    display: flex;
+}
+
+.center-navbar-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.center-navbar-section a {
+    color: black;
+}
+
+.center-navbar-section a.is-active {
+    font-weight: 600 !important;
+}
+
+.help-question,
+.personal-info {
+    display: flex;
+}
+
+.help-question button {
+    cursor: pointer;
+    border: none;
+    width: 79px;
+    height: 32px;
+    padding: 0;
+    margin-right: 8px;
+    border-radius: 8px;
+    background: red;
+    color: #fff;
+}
+
+.help-question p {
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 0.5em;
+    margin-right: 1rem;
+}
+
+.ask-question {
+    margin-top: 0.4rem;
+}
+
+.notification-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background: rgb(239, 239, 239);
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: visible;
+    padding: 8.5px;
+    margin-right: 0.5em;
+}
+
+.bxs-bell {
+    font-size: 1.25rem;
+    color: black;
+    
+}
+
+.profile {
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    background: rgb(239, 239, 239);
+    display: flex;
+    padding: 0 5px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.user-avt {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    
+}
+
+.protection {
+    width: 18px;
+    height: 16px;
+    margin-left: 7px;
+    top: 0.8rem;
+    position: relative;
+}
+
+.user-name {
+    margin-left: 2px;
+    max-width: 60px;
+    display: flex;
+    width: 33.761px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 14px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    top: 1rem;
+    display: flex;
+    width: 33.761px;
+    height: auto;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* flex-shrink: 0; */
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 10px;
+    color: #3b3b3b;
+    padding-right: 1rem;
+}
+
